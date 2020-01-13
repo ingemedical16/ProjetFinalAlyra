@@ -8,7 +8,7 @@ node_modules
 package-lock.json
 
 # Github Artefacts
-docs
+
 
 # Mac specific
 .DS_Store
