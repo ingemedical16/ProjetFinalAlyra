@@ -352,6 +352,7 @@ function sendBatch(address[] memory _recipients, uint[] memory _values) public r
           require(_recipients.length == _values.length);
           for (uint i = 0; i < _values.length; i++) {
               require(transfer(_recipients[i], _values[i]));
+              emit Transfer(msg.sender, _recipients[i], _values[i]);
           }
           return true;
   }

@@ -17388,10 +17388,83 @@
       "links": {},
       "address": "0x0a0f15abe51fACe7A1365dE9241C8eE7390AD2a8",
       "transactionHash": "0x5422f044f3a172d47901d42d6834456ccae8bf7a318ec68d0c3b0f4950aad632"
+    },
+    "5777": {
+      "events": {
+        "0xf931edb47c50b4b4104c187b5814a9aef5f709e17e2ecf9617e860cacade929c": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "token",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "balance",
+              "type": "uint256"
+            }
+          ],
+          "name": "ClaimedTokens",
+          "type": "event",
+          "signature": "0xf931edb47c50b4b4104c187b5814a9aef5f709e17e2ecf9617e860cacade929c"
+        },
+        "0x04afd2ce457d973046bd54f5d7d36368546da08b88be1bca8ae50e32b451da17": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "total",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "tokenAddress",
+              "type": "address"
+            }
+          ],
+          "name": "Multisended",
+          "type": "event",
+          "signature": "0x04afd2ce457d973046bd54f5d7d36368546da08b88be1bca8ae50e32b451da17"
+        },
+        "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "previousOwner",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "newOwner",
+              "type": "address"
+            }
+          ],
+          "name": "OwnershipTransferred",
+          "type": "event",
+          "signature": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0"
+        }
+      },
+      "links": {},
+      "address": "0xc1930a26a2DfB6112cEcc081CFEdc4087b6ff0Fe",
+      "transactionHash": "0xb9f3567428336155feb83cefa4f71291f0976af14fca356f31e56a2634a52e1d"
     }
   },
   "schemaVersion": "3.0.19",
-  "updatedAt": "2020-01-05T17:19:19.830Z",
+  "updatedAt": "2020-01-19T18:58:59.983Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {
